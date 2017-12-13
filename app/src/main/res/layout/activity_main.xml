@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huazhume.hole.hole.MainActivity">
+    <LinearLayout
+        android:id="@+id/linearlayout_maincontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/linearlayout_bottombar">
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearlayout_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true" >
+        <include layout="@layout/view_tabbar">
+        </include>
+    </LinearLayout>
+
+</RelativeLayout>

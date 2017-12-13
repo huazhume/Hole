@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <ImageView
+        android:id="@+id/home_listitem_article_phtoto"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/main_home_topic_photo"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="24dp"
+        android:layout_toLeftOf="@+id/home_listitem_article_phtoto"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Record labels are dead(well,king of)Long live label services"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="24dp"
+        android:layout_toLeftOf="@+id/home_listitem_article_phtoto"
+        android:layout_marginRight="20dp"
+        android:textColor="#878787"
+        android:textSize="14sp"
+        android:text="Record labels are dead(well,king of)Long live label services"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp">
+        <include layout="@layout/layout_main_home_tools" />
+    </LinearLayout>
+
+</LinearLayout>
